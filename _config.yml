@@ -1,0 +1,11 @@
+# Site settings
+name: Meal Plan Recipes
+title: Meal Plan Recipes at William and Mary
+email: submit@mealplanrecipes.com
+description: "Now, even freshman can cook."
+baseurl: ""
+url: "http://mealplanrecipes.com"
+
+# Build settings
+markdown: kramdown
+permalinks: pretty
