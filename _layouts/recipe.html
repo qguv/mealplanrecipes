@@ -1,0 +1,59 @@
+---
+layout: default
+---
+<div class="post">
+
+  <header class="post-header">
+    <h1>{{ page.title }}</h1>
+    <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    {% if page.ingredients %}
+    <div class="ingredients-listing">
+    <h3>Ingredients:</h3>
+    <ul>
+    {% for ingr in page.ingredients %}
+      <li class="ingredient">
+
+        {% if ingr.quantity %}
+        <span class="quantity">
+        {{ ingr.quantity }}
+        </span>
+        {% endif %}
+
+        {% if ingr.type %}
+        <span class="type">
+        {{ ingr.type }}
+        </span>
+        {% endif %}
+
+        <span class="name">
+        {{ ingr.name }}
+        </span>
+
+        {% if ingr.where %}
+        <span class="where">
+        ({{ ingr.where }})
+        </span>
+        {% endif %}
+
+      </li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+  </header>
+
+  <article class="post-content">
+  {{ content }}
+  {% if page.author %}
+    <p class="signature">
+    {% if page.signature %}
+    {{ page.signature }},
+    {% else %}
+    XOXO,
+    {% endif %}
+    <br />
+    {{ page.author }}
+    </p>
+  {% endif %}
+  </article>
+
+</div>

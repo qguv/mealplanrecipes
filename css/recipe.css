@@ -1,0 +1,16 @@
+/* Recipes css */
+
+div.ingredients-listing {
+  margin-top: 1.5em;
+}
+
+.ingredients-listing .ingredient .name {
+  font-weight: 600;
+  color: #333;
+}
+
+p.signature {
+  margin-top: 3em;
+  margin-left: 1em;
+  line-height: 200%;
+}

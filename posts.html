@@ -1,26 +1,20 @@
 ---
-layout: page
+layout: default
 ---
 
+<div class="home">
 
-  <h2>Make the best of your meal plan.</h2>
-
-  <p>
-  You may find yourself frustrated at the compulsory nature of the William and Mary meal plan.
-  <em>There's still hope.</em>
-  </p>
-
-  <h3>Recent recipes</h3>
+  <h1>Post archive</h1>
 
   <ul class="posts">
-    {% for post in site.posts limit:3 %}
-    {% if post.layout == "recipe" %}
+    {% for post in site.posts %}
       <li>
         <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
-    {% endif %}
     {% endfor %}
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+  <head>
+    {% include head.html %}
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    {% if page.css %}
+    <link rel="stylesheet" href="{{ page.css | prepend: '/css/' | prepend: site.baseurl | append: '.css' }}">
+    {% endif %}
+  </head>
 
     <body>
 
