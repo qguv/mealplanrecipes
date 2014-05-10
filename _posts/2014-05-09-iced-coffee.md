@@ -19,7 +19,7 @@ ingredients:
 
 For coffee drinkers, especially those of us in Williamsburg, the combination of summer heat and Virginia humidity can make hot coffee difficult to enjoy. Taking a nice, tall glass of iced coffee to-go can make the walk from Sadler to Morton that much more bearable.
 
-The obstacle to overcome here is the plastic glasses in Sadler. Hot coffee will melt the sides. To-go cups are worse; putting coffee in the thin, clear polypropylene cups yields a hot gob of plastic and a mess of coffee inadvertantly sacrificed to [fallen Juggalos][juggalos].
+The obstacle to overcome here is the plastic glasses in Sadler. Hot coffee will melt the sides. To-go cups are worse; putting coffee in the thin, clear polypropylene cups yields a hot gob of plastic and a mess of coffee inadvertently sacrificed to [fallen Juggalos][juggalos].
 
 The solution? _The intermediate cup._
 
