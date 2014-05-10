@@ -4,7 +4,23 @@ layout: default
 <div class="post">
 
   <header class="post-header">
-    <h1>{{ page.title }}</h1>
+  <h1>{{ page.title }}
+    <div class="diets">
+      {% if page.tags contains 'vegan' %}
+      <img src="/img/diets/vegan.png" height=42 alt="vegan and vegetarian dish"/>
+      {% elsif page.tags contains 'vegetarian' or page.tags contains 'veg' %}
+      <img src="/img/diets/vegetarian.png" height=42 alt="vegetarian dish"/>
+      {% endif %}
+      {% if page.tags contains 'paleo' and page.tags contains 'meat' %}
+      <img src="/img/diets/very-paleo.png" height=42 alt="meaty paleo dish"/>
+      {% elsif page.tags contains 'paleo' %}
+      <img src="/img/diets/paleo-ok.png" height=42 alt="paleo-compliant dish"/>
+      {% endif %}
+      {% if page.tags contains 'gluten-free' or page.tags contains 'gf' %}
+      <img src="/img/diets/gluten-free.png" height=42 alt="gluten-free dish"/>
+      {% endif %}
+    </div>
+  </h1>
     <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     {% if page.ingredients %}
     <div class="ingredients-listing">
@@ -48,7 +64,7 @@ layout: default
     {% if page.signature %}
     {{ page.signature }},
     {% else %}
-    XOXO,
+    Enjoy,
     {% endif %}
     <br />
     {{ page.author }}

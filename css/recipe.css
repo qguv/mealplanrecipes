@@ -14,3 +14,8 @@ p.signature {
   margin-left: 1em;
   line-height: 200%;
 }
+
+div.diets {
+  display: inline-block;
+  margin-left: 0.25em;
+}
