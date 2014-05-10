@@ -7,3 +7,5 @@ categories: about
 ---
 
 Welcome to Meal Plan Recipes! Check back every couple days for delicious recipes using dining hall ingredients.
+
+Email your favorite creative recipes to the address at the bottom of the page.
