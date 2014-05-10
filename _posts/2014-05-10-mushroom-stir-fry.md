@@ -41,7 +41,7 @@ Most of these ingredients and instructions are flexible; there's no "right" way 
 ## Method
 
 1. Heat up 1 Tbsp oil in a medium frying pan.
-  - Oil is dangerous! Be careful.
+  - Hot oil is dangerous! Be careful.
 2. Add green peppers and stir constantly for about a minute.
 3. Add mushrooms, baby corn, and any other vegetables.
 4. Immediately add the rest of the oil; stir and toss constantly.
