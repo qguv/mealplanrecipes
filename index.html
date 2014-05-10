@@ -21,17 +21,17 @@ layout: page
         <img src="/img/drink.png" height=20 alt="(drink)"/>
         {% endif %}
         {% if post.tags contains 'vegan' %}
-        <img src="/img/diets/vegan.png" height=20 alt="(vegan and vegetarian dish)"/>
+        <img src="/img/diets/vegan.png" height=20 alt="(vegan and vegetarian dish)" title="vegan and vegetarian dish"/>
         {% elsif post.tags contains 'vegetarian' or post.tags contains 'veg' %}
-        <img src="/img/diets/vegetarian.png" height=20 alt="(vegetarian dish)"/>
+        <img src="/img/diets/vegetarian.png" height=20 alt="(vegetarian dish)" title="vegetarian dish"/>
         {% endif %}
         {% if post.tags contains 'paleo' and post.tags contains 'meat' %}
-        <img src="/img/diets/very-paleo.png" height=20 alt="(meaty paleo dish)"/>
+        <img src="/img/diets/very-paleo.png" height=20 alt="(meaty paleo dish)" title="meaty paleo dish"/>
         {% elsif post.tags contains 'paleo' %}
-        <img src="/img/diets/paleo-ok.png" height=20 alt="(paleo-compliant dish)"/>
+        <img src="/img/diets/paleo-ok.png" height=20 alt="(paleo-compliant dish)" title="paleo-compliant dish"/>
         {% endif %}
         {% if post.tags contains 'gluten-free' or post.tags contains 'gf' %}
-        <img src="/img/diets/gluten-free.png" height=20 alt="(gluten-free dish)"/>
+        <img src="/img/diets/gluten-free.png" height=20 alt="(gluten-free dish)" title="gluten-free dish"/>
         {% endif %}
       </span>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
