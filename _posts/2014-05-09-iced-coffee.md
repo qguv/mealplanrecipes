@@ -5,7 +5,7 @@ css: recipe
 title:  "Iced Coffee"
 signature: "Enjoy your swill"
 author: "Quint G<small>UVERNATOR</small>"
-tags: sadler coffee drinks
+tags: sadler drink coffee
 
 ingredients:
   - name: "coffee"

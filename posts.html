@@ -2,19 +2,32 @@
 layout: default
 ---
 
-<div class="home">
+<h1>Post archive</h1>
 
-  <h1>Post archive</h1>
+<ul class="posts">
+  {% for post in site.posts %}
+    <li>
+      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}
+        {% if post.tags contains 'drink' %}
+        <img src="/img/drink.png" height=20 alt="(drink)"/>
+        {% endif %}
+        {% if post.tags contains 'vegan' %}
+        <img src="/img/diets/vegan.png" height=20 alt="(vegan and vegetarian dish)"/>
+        {% elsif post.tags contains 'vegetarian' or post.tags contains 'veg' %}
+        <img src="/img/diets/vegetarian.png" height=20 alt="(vegetarian dish)"/>
+        {% endif %}
+        {% if post.tags contains 'paleo' and post.tags contains 'meat' %}
+        <img src="/img/diets/very-paleo.png" height=20 alt="(meaty paleo dish)"/>
+        {% elsif post.tags contains 'paleo' %}
+        <img src="/img/diets/paleo-ok.png" height=20 alt="(paleo-compliant dish)"/>
+        {% endif %}
+        {% if post.tags contains 'gluten-free' or post.tags contains 'gf' %}
+        <img src="/img/diets/gluten-free.png" height=20 alt="(gluten-free dish)"/>
+        {% endif %}
+      </span>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
