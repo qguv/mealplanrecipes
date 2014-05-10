@@ -2,15 +2,15 @@
 layout: page
 ---
 
-
-  <h2>Make the best of your meal plan.</h2>
+<div class="home">
+  <h1>Make the best of your meal plan.</h1>
 
   <p>
   You may find yourself frustrated at the compulsory nature of the William and Mary meal plan.
   <em>There's still hope.</em>
   </p>
 
-  <h3>Recent recipes</h3>
+  <h4>Recent recipes</h4>
 
   <ul class="posts">
     {% for post in site.posts limit:3 %}
@@ -24,3 +24,4 @@ layout: page
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+</div>

@@ -146,12 +146,13 @@ a:visited { color: #205caa; }
 
 .home h1 { margin-bottom: 25px; }
 
-.home h2,h3 {
+.home h1,h2,h3 {
   letter-spacing: -1.75px;
   line-height: 1;
   font-weight: 300;
 }
 
+.home h1 { font-size: 54px; }
 .home h2 { font-size: 42px; }
 .home h3 { font-size: 36px; }
 
