@@ -27,7 +27,7 @@ layout: default
     <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     {% if page.ingredients %}
     <div class="ingredients-listing">
-    <h3>Ingredients:</h3>
+      <h3>Ingredients{% if page.ingredients.parens %} ({{ page.ingredients.parens }}){% endif %}:</h3>
     <ul>
     {% for ingr in page.ingredients %}
       <li class="ingredient">
