@@ -15,11 +15,13 @@ Fruit is the main ingredient. You can start with fresh fruit or fruit from a can
 
   - Bananas are full of good and healthy stuff, and they give a creamy texture to any smoothie. They can be frozen or fresh; as long as the other ingredients are frozen or cold, it won't matter.
   - Melons have a nice, sweet, summery flavor. They're best blended into a smoothie on their own or with other fruit, but not with milk or yogurt.
-  - Oranges are great for a tangy citrus taste, but aren't at their best when mixed with milk or yogurt.
+  - Oranges are great for a tangy citrus taste, but [aren't at their best when mixed with milk or yogurt][heathers].
   - Apples can be surprisingly good in a smoothie, whether in the form of apple juice, apple sauce, or fresh or frozen apples. Just remember that apples brown when exposed to the air (a coating of lemon juice helps protect them) and that the skins can be a little tough. You might want to peel your apple before using it in a smoothie.
   - All berries are delicious in smoothies, and can be mixed with a juice base, yogurt, or milk.
   - Pineapple, mango, and other tropical fruits may be hard to obtain, but tropical smoothies are immensely popular and easy to make.
   - Kiwis are great little bundles of deliciousness and nutrients as well! Technically you can eat the fuzzy skin, but for smooth blending, it's best to remove it.
+
+[heathers]: http://pages.citebite.com/x3e4x0i0k6jdw
 
 ## Liquid base
 
