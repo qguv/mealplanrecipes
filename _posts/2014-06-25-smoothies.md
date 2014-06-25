@@ -44,14 +44,14 @@ And then the accessories. None of these are necessary, but all are fun to try!
 
 A few of my personal favorite combinations:
 
-#### Tropical smoothie
-Any combination of frozen pineapple, banana, mango, and coconut milk (it's worth buying!)
+### Tropical smoothie
+Any combination of frozen pineapple, banana, mango, and coconut milk (it's worth buying!).
 
-#### Peanut butter &amp; Jelly Smoothie
-Peanut butter, mixed berries, banana, and soy milk
+### Peanut butter &amp; Jelly Smoothie
+Peanut butter, mixed berries, banana, and soy milk.
 
-#### Dessert Smoothie
-Chocolate soy milk, peanut butter, and frozen banana
+### Dessert Smoothie
+Chocolate soy milk, peanut butter, and frozen banana.
 
-#### Carrot Cake Smoothie
-Carrot shreds, soy milk, raisins, and oats or granola
+### Carrot Cake Smoothie
+Carrot shreds, soy milk, raisins, and oats or granola.
